@@ -1,0 +1,92 @@
+//---------------------------------------
+// PATRONES DE COLORES
+//---------------------------------------
+$principal:#DB2579;
+$secundario:#9D2A75;
+$precio: #FF914D;
+$texto: #132430;
+$blanco: #F6F6F6;
+/*----------------------------------------
+1. TIPOGRAFIA DEL SITIO
+-----------------------------------------*/
+@font-face {
+    font-family: "Now-Thin";
+    src: local("Now-Thin"),
+    url("/assets/fonts/Now-Thin.otf") format('opentype');
+  }
+  
+
+
+
+html {
+    font-size: 13px;
+}
+
+body {
+    font-family: 'Now-Thin';
+    color: $texto;
+}
+
+.texto{
+    
+    color: $texto!important;
+}
+
+.precio{
+    
+    color:$precio !important;
+}
+
+/*-----------------------------------------
+3. ESTILOS COLOR PRINCIPAL
+------------------------------------------*/
+
+.bg-primary {
+    background-color: $principal !important;
+}
+
+
+.text-primary {
+    color: $principal !important;
+}
+
+.text-secondary{
+    color: $secundario !important;
+}
+
+.bg-secondary{
+    background-color: $secundario !important;
+}
+
+
+.bg-light{
+    background-color: $blanco !important;
+}
+
+
+/*----------------------------------------
+HERO
+-----------------------------------------*/
+
+
+.jumbotron {
+    background-image: url("/assets/images/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  
+  /*----------------------------------------
+Nuestros Especiales
+-----------------------------------------*/
+
+
+.menu {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+
+
+  

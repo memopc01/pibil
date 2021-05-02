@@ -1,0 +1,54 @@
+/*----------------------------------------
+1. TIPOGRAFIA DEL SITIO
+-----------------------------------------*/
+@font-face {
+  font-family: "Now-Thin";
+  src: local("Now-Thin"), url("/assets/fonts/Now-Thin.otf") format("opentype"); }
+html {
+  font-size: 13px; }
+
+body {
+  font-family: 'Now-Thin';
+  color: #132430; }
+
+.texto {
+  color: #132430 !important; }
+
+.precio {
+  color: #FF914D !important; }
+
+/*-----------------------------------------
+3. ESTILOS COLOR PRINCIPAL
+------------------------------------------*/
+.bg-primary {
+  background-color: #DB2579 !important; }
+
+.text-primary {
+  color: #DB2579 !important; }
+
+.text-secondary {
+  color: #9D2A75 !important; }
+
+.bg-secondary {
+  background-color: #9D2A75 !important; }
+
+.bg-light {
+  background-color: #F6F6F6 !important; }
+
+/*----------------------------------------
+HERO
+-----------------------------------------*/
+.jumbotron {
+  background-image: url("/assets/images/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; }
+
+  /*----------------------------------------
+Nuestros Especiales
+-----------------------------------------*/
+.menu {
+  font-family: 'Quicksand', sans-serif; }
+
+/*# sourceMappingURL=estilos.css.map */
